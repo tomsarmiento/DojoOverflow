@@ -1,0 +1,11 @@
+h1{
+	display:inline-block;
+	margin-right:50%;
+	margin-bottom:20px;
+}
+a{
+	display:inline-block;
+}
+.container-fluid{
+	margin-top:10px;
+}

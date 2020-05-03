@@ -1,0 +1,17 @@
+.left{
+	display:inline-block;
+	width:70%;
+	vertical-align:top;
+	margin-top:30px;
+}
+h4{
+	margin-top:20px;
+	color:#A09D9C;
+}
+.right{
+	display:inline-block;
+	margin-left:40px;
+}
+.container-fluid{
+	margin-top:20px;
+}

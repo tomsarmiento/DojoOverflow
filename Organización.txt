@@ -1,0 +1,28 @@
+/questions -> Tabla con todas las preguntas.✅
+"questions.jsp"✅ kinda 
+/questions/new -> Redirige hacia crear una nueva pregunta.✅ kinda
+"newquestion.jsp"✅ kinda
+/questions/new, POST -> Almacena la pregunta en la base de datos y redirige hacia la tabla de preguntas.✅
+"redirect:/questions"✅
+/questions/{id} -> Muestra las respuesta de la pregunta y un formulario para subir una nueva respuesta.✅
+"showquestion.jsp"
+/questions/{id}, POST -> Almacena una respuesta en la base de datos y redirige hacia la misma pregunta.✅
+"redirect:/questions/"+id✅
+
+Modelos:
+
+Question✅
+Answer✅
+Tag✅
+
+Métodos en el servicio:
+
+allQuestions();✅
+findQuestionById(Long id);✅
+createQuestion(Question q);✅
+createAnswer(Answer a);✅
+createTag(Tag t);✅
+
+/* Aprendí a usar condicionales en JSTL, a crear un List que contenga un String por cada tag que esté separado por coma en el String proveniente del Fron-End (Usando split en el String del Front-End y Arrays.asList para convertir un Array estático en un List).
+*/
+
